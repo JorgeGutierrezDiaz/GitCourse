@@ -18,18 +18,22 @@ en tu computador
 - git push:
   Enviamos todos los commits que tengamos a nuestro repositorio
 
-- git pull: 
+- git pull:
   Traemos todos los archivos de nuestro gitHub
 
   ##Tags
 
   Los tags nos permiten crear versiones de nuestros proyectos y poder descargarlos
-  en archivos .zip 
+  en archivos .zip
 
-  - git tag versionAlpha -m "versión alpha" : 
-  Nos genera un tag
+  - git tag versionAlpha -m "versión alpha" :
+    Nos genera un tag
+
+  - git log :
+    Nos muestra el historial de los tags que hemos hecho con los ID de los commit, esto nos sirve para la siguiente instruccion
+
+  - git tag -a v1.0.0 -m "Versión 1.0.0" id_commit :
+    Hacemos una version con el id del commit que nosotros queramos
 
   - git push --tags :
-  Subimos los tags
-
-  
+    Subimos los tags
